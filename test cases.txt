@@ -1,0 +1,19 @@
+test case
+
+(eg : login)
+description
+pre condition 
+post condition
+expected result
+
+
+
+test cases
+ login
+ 
+guide :
+sheena miss
+
+coordinators :
+sheena miss 
+gripsy miss

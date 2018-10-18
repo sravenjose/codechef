@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <script src = "https://maps.googleapis.com/maps/api/js"></script>
+      
+      <script>
+         function loadMap() {
+            
+            var mapOptions = {
+               center:new google.maps.LatLng(10.2062469,76.5182183), zoom:15,
+               mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+                
+            var map = new google.maps.Map(document.getElementById("sample"),mapOptions);
+         }
+      </script>
+      
+   </head>
+   
+   <body onload = "loadMap()">
+      <div id = "sample" style = "width:570px; height:580px;"></div>
+   </body>
+   
+</html>
